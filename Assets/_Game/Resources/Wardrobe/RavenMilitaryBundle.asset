@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f20e8cb27abbddc4f94aa957a08d9db6, type: 3}
+  m_Name: RavenMilitaryBundle
+  m_EditorClassIdentifier: BattleRoyale::BattleRoyale.OutfitBundleData
+  id: bundle_raven_military
+  displayName: Raven Military
+  items:
+  - {fileID: 11400000, guid: ab2fc55a4586de64ba98aa8a3cfbba81, type: 2}
+  - {fileID: 11400000, guid: c552b45ac10b9f44a819ff0bb6b67602, type: 2}
+  - {fileID: 11400000, guid: bbcf57044c5ddcb4c8fab3c500e1aa5f, type: 2}
+  - {fileID: 11400000, guid: 91688bd75e2f1cd4f80ddfb323f5f46f, type: 2}
+  - {fileID: 11400000, guid: 3060cbed2bacbd3438f855d242592b27, type: 2}
+  - {fileID: 11400000, guid: 9f7493d4f6d50ce4f939b83aef570d62, type: 2}

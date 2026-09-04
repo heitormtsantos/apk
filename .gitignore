@@ -1,0 +1,44 @@
+# Unity generated folders
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+[Uu]ser[Ss]ettings/
+[Tt]est[Rr]esults/
+[Mm]emoryCaptures/
+[Rr]ecordings/
+
+# Local validation and smoke builds
+SmokeBuild/
+Validation/
+.utmp/
+.superpowers/
+*.log
+*.xml
+
+# IDE and operating system files
+.vs/
+.vscode/
+.idea/
+*.csproj
+*.sln
+*.suo
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.mdb
+*.opendb
+*.VC.db
+.DS_Store
+Thumbs.db
+
+# Unity crash reports and generated packages
+sysinfo.txt
+crashlytics-build.properties
+*.apk.tmp
+*.aab.tmp

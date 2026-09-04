@@ -1,0 +1,19 @@
+{
+  "name": "BattleRoyale.Editor",
+  "rootNamespace": "BattleRoyale.Editor",
+  "references": [
+    "BattleRoyale",
+    "Unity.RenderPipelines.Universal.Runtime"
+  ],
+  "includePlatforms": [
+    "Editor"
+  ],
+  "excludePlatforms": [],
+  "allowUnsafeCode": false,
+  "overrideReferences": false,
+  "precompiledReferences": [],
+  "autoReferenced": true,
+  "defineConstraints": [],
+  "versionDefines": [],
+  "noEngineReferences": false
+}

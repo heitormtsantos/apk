@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4148918e93cb0ae4c86753888e49fe8b, type: 3}
+  m_Name: ClothingDatabase
+  m_EditorClassIdentifier: BattleRoyale::BattleRoyale.ClothingDatabase
+  allItems:
+  - {fileID: 11400000, guid: 096b56e4c69485e4dbde995fa9b76e51, type: 2}
+  - {fileID: 11400000, guid: 5d58737d192616f41beece8ffe325ed2, type: 2}
+  - {fileID: 11400000, guid: 91688bd75e2f1cd4f80ddfb323f5f46f, type: 2}
+  - {fileID: 11400000, guid: 69f30c12be382a7459334e62b14b2e5b, type: 2}
+  - {fileID: 11400000, guid: c0d9a52e5666ecc4abf247159f65cde0, type: 2}
+  - {fileID: 11400000, guid: 3060cbed2bacbd3438f855d242592b27, type: 2}
+  - {fileID: 11400000, guid: 4e579bf08fe4be24a9575537297b92d6, type: 2}
+  - {fileID: 11400000, guid: 3cbe808d6df12f64180d9c06205a7ace, type: 2}
+  - {fileID: 11400000, guid: 9f7493d4f6d50ce4f939b83aef570d62, type: 2}
+  - {fileID: 11400000, guid: ab2fc55a4586de64ba98aa8a3cfbba81, type: 2}
+  - {fileID: 11400000, guid: 09997908e5ad08f48b8123a1441c25a5, type: 2}
+  - {fileID: 11400000, guid: c552b45ac10b9f44a819ff0bb6b67602, type: 2}
+  - {fileID: 11400000, guid: 2502692597977954b80d2b67d01d368d, type: 2}
+  - {fileID: 11400000, guid: bbcf57044c5ddcb4c8fab3c500e1aa5f, type: 2}
+  - {fileID: 11400000, guid: 4673d7e20fe084247adae5def29881fe, type: 2}

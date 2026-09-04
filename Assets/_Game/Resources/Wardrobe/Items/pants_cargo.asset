@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0e4d06c91f5cde4fa7afd4bd3db14f1, type: 3}
+  m_Name: pants_cargo
+  m_EditorClassIdentifier: BattleRoyale::BattleRoyale.ClothingItemData
+  id: pants_cargo
+  displayName: Calca Cargo
+  slot: 4
+  icon: {fileID: 21300000, guid: 7804a11018c4fc7418767525f10891c2, type: 3}
+  clothingPrefab: {fileID: 4239951277693821515, guid: 9d0b7055377c3da4bb687bddf5d7a034, type: 3}
+  mesh: {fileID: 0}
+  materials:
+  - {fileID: 2100000, guid: 34a50d0345fb63842ac0ad64cb6e8d3b, type: 2}
+  owned: 1
+  rarity: 2
+  price: 0
+  bodyPartsToHide: 03000000
+  defaultItem: 0

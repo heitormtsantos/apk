@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0e4d06c91f5cde4fa7afd4bd3db14f1, type: 3}
+  m_Name: hair_amber
+  m_EditorClassIdentifier: BattleRoyale::BattleRoyale.ClothingItemData
+  id: hair_amber
+  displayName: Cabelo Amber
+  slot: 0
+  icon: {fileID: 21300000, guid: 805dd2de5c2d2db4e87c91cf69140402, type: 3}
+  clothingPrefab: {fileID: 2303030920752475916, guid: 836bacdf83d3e734780ad40d594a9ee9, type: 3}
+  mesh: {fileID: 0}
+  materials:
+  - {fileID: 2100000, guid: 8a487a93c5d575d4c80c2811f936cd94, type: 2}
+  owned: 1
+  rarity: 0
+  price: 0
+  bodyPartsToHide: 
+  defaultItem: 0

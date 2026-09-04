@@ -1,25 +1,32 @@
-# Raven Drop APK
+# Raven Drop
 
-Build Android do prototipo Raven Drop. Esta versao diferencia as miras por arma, reduz hip fire,
-red dot, 2x e 4x, reserva a mascara escura para sniper, deixa o arrasto vertical de tiro livre
-mais natural e adiciona tamanho configuravel ao editor de HUD para PC e celular.
+Projeto completo do prototipo Battle Royale mobile feito em Unity 6 com URP.
 
-## Download
+## Abrir em outra maquina
 
-Baixe `RavenDrop-Android.apk` e permita a instalacao de aplicativos de fontes externas no Android.
+1. Instale Git LFS e execute `git lfs install`.
+2. Clone este repositorio normalmente.
+3. Abra a pasta clonada pelo Unity Hub usando Unity `6000.5.9f1`.
+4. Instale o modulo Android Build Support para gerar builds Android.
+5. Abra `Assets/_Game/Scenes/BattleRoyalePrototype.unity`.
 
-## Requisitos
+As pastas `Library`, `Temp`, `Logs` e outros caches nao sao versionadas. O Unity ira recria-las no primeiro carregamento.
 
-- Android 8.0 (API 26) ou superior
-- Arquitetura ARM64
-- Orientacao horizontal
+## APK
 
-## Verificacao
+O APK ARM64 para Android 8.0 ou superior esta na raiz como `RavenDrop-Android.apk`.
 
 SHA-256:
 
 ```text
-873D7F57BF2CCE97FD1E72B71735D408C1839F506D41011459F42CED15FDCB66
+425AC7E50970B363D99FC8A0FC3A699675A86EC4F25FBA22BF5FAFD8E16CE6DE
 ```
 
-Este e um build de desenvolvimento. O funcionamento em aparelho Android fisico ainda precisa ser validado.
+## Validacao
+
+- Unity Edit Mode: 393 de 393 testes passaram.
+- Loot de armas e mochilas foi reduzido.
+- Mochila equipada foi reposicionada e orientada nas costas.
+- Aviao de implantacao e Airdrop usam o novo modelo texturizado.
+
+O projeto ainda e um prototipo offline. Teste o APK em aparelhos Android fisicos antes de distribuicao publica.

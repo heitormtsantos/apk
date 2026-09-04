@@ -1,0 +1,699 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-7630353535787378412
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dd630541e732abd43ab3ebeda3f28a19, type: 3}
+  m_Name: stabilizer
+  m_EditorClassIdentifier: BattleRoyale::BattleRoyale.MatchShopItemData
+  id: stabilizer
+  displayName: Estabilizador
+  description: 
+  icon: {fileID: 0}
+  category: 6
+  productType: 7
+  price: 450
+  quantityGranted: 1
+  available: 1
+  sortOrder: 18
+  stockMode: 0
+  maximumStock: 0
+  maximumPurchasesPerPlayer: 0
+  allowMultiplePurchases: 1
+  requireConfirmation: 0
+  requireFullPackageSpace: 1
+  weaponPurchaseBehavior: 0
+  optionalWorldPrefab: {fileID: 0}
+  weapon: {fileID: 0}
+  weaponId: 
+  ammoKind: 0
+  equipmentLevel: 1
+  bonusAmmo: 0
+--- !u!114 &-6985165135729750635
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dd630541e732abd43ab3ebeda3f28a19, type: 3}
+  m_Name: weapon-mako-sidearm
+  m_EditorClassIdentifier: BattleRoyale::BattleRoyale.MatchShopItemData
+  id: weapon-mako-sidearm
+  displayName: Mako Sidearm
+  description: 
+  icon: {fileID: 0}
+  category: 0
+  productType: 0
+  price: 650
+  quantityGranted: 1
+  available: 1
+  sortOrder: 4
+  stockMode: 0
+  maximumStock: 0
+  maximumPurchasesPerPlayer: 0
+  allowMultiplePurchases: 1
+  requireConfirmation: 0
+  requireFullPackageSpace: 1
+  weaponPurchaseBehavior: 0
+  optionalWorldPrefab: {fileID: 0}
+  weapon: {fileID: 0}
+  weaponId: Mako Sidearm
+  ammoKind: 0
+  equipmentLevel: 1
+  bonusAmmo: 30
+--- !u!114 &-6115731623048564606
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dd630541e732abd43ab3ebeda3f28a19, type: 3}
+  m_Name: weapon-kairo-smg
+  m_EditorClassIdentifier: BattleRoyale::BattleRoyale.MatchShopItemData
+  id: weapon-kairo-smg
+  displayName: Kairo SMG
+  description: 
+  icon: {fileID: 0}
+  category: 0
+  productType: 0
+  price: 900
+  quantityGranted: 1
+  available: 1
+  sortOrder: 1
+  stockMode: 0
+  maximumStock: 0
+  maximumPurchasesPerPlayer: 0
+  allowMultiplePurchases: 1
+  requireConfirmation: 0
+  requireFullPackageSpace: 1
+  weaponPurchaseBehavior: 0
+  optionalWorldPrefab: {fileID: 0}
+  weapon: {fileID: 0}
+  weaponId: Kairo SMG
+  ammoKind: 0
+  equipmentLevel: 1
+  bonusAmmo: 30
+--- !u!114 &-5617421593393394589
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dd630541e732abd43ab3ebeda3f28a19, type: 3}
+  m_Name: helmet-2
+  m_EditorClassIdentifier: BattleRoyale::BattleRoyale.MatchShopItemData
+  id: helmet-2
+  displayName: Capacete Nivel 2
+  description: 
+  icon: {fileID: 0}
+  category: 3
+  productType: 4
+  price: 700
+  quantityGranted: 1
+  available: 1
+  sortOrder: 14
+  stockMode: 0
+  maximumStock: 0
+  maximumPurchasesPerPlayer: 0
+  allowMultiplePurchases: 1
+  requireConfirmation: 0
+  requireFullPackageSpace: 1
+  weaponPurchaseBehavior: 0
+  optionalWorldPrefab: {fileID: 0}
+  weapon: {fileID: 0}
+  weaponId: 
+  ammoKind: 0
+  equipmentLevel: 2
+  bonusAmmo: 0
+--- !u!114 &-5151582298293660381
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dd630541e732abd43ab3ebeda3f28a19, type: 3}
+  m_Name: weapon-vesper-9
+  m_EditorClassIdentifier: BattleRoyale::BattleRoyale.MatchShopItemData
+  id: weapon-vesper-9
+  displayName: Vesper-9
+  description: 
+  icon: {fileID: 0}
+  category: 0
+  productType: 0
+  price: 1200
+  quantityGranted: 1
+  available: 1
+  sortOrder: 0
+  stockMode: 0
+  maximumStock: 0
+  maximumPurchasesPerPlayer: 0
+  allowMultiplePurchases: 1
+  requireConfirmation: 1
+  requireFullPackageSpace: 1
+  weaponPurchaseBehavior: 0
+  optionalWorldPrefab: {fileID: 0}
+  weapon: {fileID: 0}
+  weaponId: Vesper-9
+  ammoKind: 0
+  equipmentLevel: 1
+  bonusAmmo: 30
+--- !u!114 &-4779223182714239981
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dd630541e732abd43ab3ebeda3f28a19, type: 3}
+  m_Name: grenade
+  m_EditorClassIdentifier: BattleRoyale::BattleRoyale.MatchShopItemData
+  id: grenade
+  displayName: Granada
+  description: 
+  icon: {fileID: 0}
+  category: 5
+  productType: 6
+  price: 250
+  quantityGranted: 1
+  available: 1
+  sortOrder: 17
+  stockMode: 0
+  maximumStock: 0
+  maximumPurchasesPerPlayer: 0
+  allowMultiplePurchases: 1
+  requireConfirmation: 0
+  requireFullPackageSpace: 1
+  weaponPurchaseBehavior: 0
+  optionalWorldPrefab: {fileID: 0}
+  weapon: {fileID: 0}
+  weaponId: 
+  ammoKind: 0
+  equipmentLevel: 1
+  bonusAmmo: 0
+--- !u!114 &-4193800582941014729
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dd630541e732abd43ab3ebeda3f28a19, type: 3}
+  m_Name: ammo-shell
+  m_EditorClassIdentifier: BattleRoyale::BattleRoyale.MatchShopItemData
+  id: ammo-shell
+  displayName: Cartuchos x12
+  description: 
+  icon: {fileID: 0}
+  category: 1
+  productType: 1
+  price: 160
+  quantityGranted: 12
+  available: 1
+  sortOrder: 7
+  stockMode: 0
+  maximumStock: 0
+  maximumPurchasesPerPlayer: 0
+  allowMultiplePurchases: 1
+  requireConfirmation: 0
+  requireFullPackageSpace: 1
+  weaponPurchaseBehavior: 0
+  optionalWorldPrefab: {fileID: 0}
+  weapon: {fileID: 0}
+  weaponId: 
+  ammoKind: 2
+  equipmentLevel: 1
+  bonusAmmo: 0
+--- !u!114 &-2798131342716107976
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dd630541e732abd43ab3ebeda3f28a19, type: 3}
+  m_Name: vest-1
+  m_EditorClassIdentifier: BattleRoyale::BattleRoyale.MatchShopItemData
+  id: vest-1
+  displayName: Colete Nivel 1
+  description: 
+  icon: {fileID: 0}
+  category: 3
+  productType: 3
+  price: 400
+  quantityGranted: 1
+  available: 1
+  sortOrder: 10
+  stockMode: 0
+  maximumStock: 0
+  maximumPurchasesPerPlayer: 0
+  allowMultiplePurchases: 1
+  requireConfirmation: 0
+  requireFullPackageSpace: 1
+  weaponPurchaseBehavior: 0
+  optionalWorldPrefab: {fileID: 0}
+  weapon: {fileID: 0}
+  weaponId: 
+  ammoKind: 0
+  equipmentLevel: 1
+  bonusAmmo: 0
+--- !u!114 &-2639473409763115384
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dd630541e732abd43ab3ebeda3f28a19, type: 3}
+  m_Name: ammo-long
+  m_EditorClassIdentifier: BattleRoyale::BattleRoyale.MatchShopItemData
+  id: ammo-long
+  displayName: Municao Sniper x10
+  description: 
+  icon: {fileID: 0}
+  category: 1
+  productType: 1
+  price: 200
+  quantityGranted: 10
+  available: 1
+  sortOrder: 8
+  stockMode: 0
+  maximumStock: 0
+  maximumPurchasesPerPlayer: 0
+  allowMultiplePurchases: 1
+  requireConfirmation: 0
+  requireFullPackageSpace: 1
+  weaponPurchaseBehavior: 0
+  optionalWorldPrefab: {fileID: 0}
+  weapon: {fileID: 0}
+  weaponId: 
+  ammoKind: 3
+  equipmentLevel: 1
+  bonusAmmo: 0
+--- !u!114 &-2366934192610759382
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dd630541e732abd43ab3ebeda3f28a19, type: 3}
+  m_Name: ammo-medium
+  m_EditorClassIdentifier: BattleRoyale::BattleRoyale.MatchShopItemData
+  id: ammo-medium
+  displayName: Municao AR x30
+  description: 
+  icon: {fileID: 0}
+  category: 1
+  productType: 1
+  price: 150
+  quantityGranted: 30
+  available: 1
+  sortOrder: 6
+  stockMode: 0
+  maximumStock: 0
+  maximumPurchasesPerPlayer: 0
+  allowMultiplePurchases: 1
+  requireConfirmation: 0
+  requireFullPackageSpace: 1
+  weaponPurchaseBehavior: 0
+  optionalWorldPrefab: {fileID: 0}
+  weapon: {fileID: 0}
+  weaponId: 
+  ammoKind: 1
+  equipmentLevel: 1
+  bonusAmmo: 0
+--- !u!114 &-1559546270621454632
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dd630541e732abd43ab3ebeda3f28a19, type: 3}
+  m_Name: vest-2
+  m_EditorClassIdentifier: BattleRoyale::BattleRoyale.MatchShopItemData
+  id: vest-2
+  displayName: Colete Nivel 2
+  description: 
+  icon: {fileID: 0}
+  category: 3
+  productType: 3
+  price: 800
+  quantityGranted: 1
+  available: 1
+  sortOrder: 11
+  stockMode: 0
+  maximumStock: 0
+  maximumPurchasesPerPlayer: 0
+  allowMultiplePurchases: 1
+  requireConfirmation: 0
+  requireFullPackageSpace: 1
+  weaponPurchaseBehavior: 0
+  optionalWorldPrefab: {fileID: 0}
+  weapon: {fileID: 0}
+  weaponId: 
+  ammoKind: 0
+  equipmentLevel: 2
+  bonusAmmo: 0
+--- !u!114 &-430441222168926523
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dd630541e732abd43ab3ebeda3f28a19, type: 3}
+  m_Name: vest-3
+  m_EditorClassIdentifier: BattleRoyale::BattleRoyale.MatchShopItemData
+  id: vest-3
+  displayName: Colete Nivel 3
+  description: 
+  icon: {fileID: 0}
+  category: 3
+  productType: 3
+  price: 1400
+  quantityGranted: 1
+  available: 1
+  sortOrder: 12
+  stockMode: 2
+  maximumStock: 2
+  maximumPurchasesPerPlayer: 0
+  allowMultiplePurchases: 1
+  requireConfirmation: 0
+  requireFullPackageSpace: 1
+  weaponPurchaseBehavior: 0
+  optionalWorldPrefab: {fileID: 0}
+  weapon: {fileID: 0}
+  weaponId: 
+  ammoKind: 0
+  equipmentLevel: 3
+  bonusAmmo: 0
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e923affd071469443a1b641fa289ec69, type: 3}
+  m_Name: DefaultMatchShopDatabase
+  m_EditorClassIdentifier: BattleRoyale::BattleRoyale.MatchShopDatabase
+  items:
+  - {fileID: -5151582298293660381}
+  - {fileID: -6115731623048564606}
+  - {fileID: 8672750850270061160}
+  - {fileID: 4689601258130640776}
+  - {fileID: -6985165135729750635}
+  - {fileID: 6309871303077783809}
+  - {fileID: -2366934192610759382}
+  - {fileID: -4193800582941014729}
+  - {fileID: -2639473409763115384}
+  - {fileID: 5565955442690353182}
+  - {fileID: -2798131342716107976}
+  - {fileID: -1559546270621454632}
+  - {fileID: -430441222168926523}
+  - {fileID: 6202386372752393626}
+  - {fileID: -5617421593393394589}
+  - {fileID: 308737416741450695}
+  - {fileID: 954348510915140297}
+  - {fileID: -4779223182714239981}
+  - {fileID: -7630353535787378412}
+--- !u!114 &308737416741450695
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dd630541e732abd43ab3ebeda3f28a19, type: 3}
+  m_Name: helmet-3
+  m_EditorClassIdentifier: BattleRoyale::BattleRoyale.MatchShopItemData
+  id: helmet-3
+  displayName: Capacete Nivel 3
+  description: 
+  icon: {fileID: 0}
+  category: 3
+  productType: 4
+  price: 1200
+  quantityGranted: 1
+  available: 1
+  sortOrder: 15
+  stockMode: 2
+  maximumStock: 2
+  maximumPurchasesPerPlayer: 0
+  allowMultiplePurchases: 1
+  requireConfirmation: 0
+  requireFullPackageSpace: 1
+  weaponPurchaseBehavior: 0
+  optionalWorldPrefab: {fileID: 0}
+  weapon: {fileID: 0}
+  weaponId: 
+  ammoKind: 0
+  equipmentLevel: 3
+  bonusAmmo: 0
+--- !u!114 &954348510915140297
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dd630541e732abd43ab3ebeda3f28a19, type: 3}
+  m_Name: gloo-wall
+  m_EditorClassIdentifier: BattleRoyale::BattleRoyale.MatchShopItemData
+  id: gloo-wall
+  displayName: Parede de Gel
+  description: 
+  icon: {fileID: 0}
+  category: 4
+  productType: 5
+  price: 300
+  quantityGranted: 1
+  available: 1
+  sortOrder: 16
+  stockMode: 0
+  maximumStock: 0
+  maximumPurchasesPerPlayer: 0
+  allowMultiplePurchases: 1
+  requireConfirmation: 0
+  requireFullPackageSpace: 1
+  weaponPurchaseBehavior: 0
+  optionalWorldPrefab: {fileID: 0}
+  weapon: {fileID: 0}
+  weaponId: 
+  ammoKind: 0
+  equipmentLevel: 1
+  bonusAmmo: 0
+--- !u!114 &4689601258130640776
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dd630541e732abd43ab3ebeda3f28a19, type: 3}
+  m_Name: weapon-longveil
+  m_EditorClassIdentifier: BattleRoyale::BattleRoyale.MatchShopItemData
+  id: weapon-longveil
+  displayName: Longveil
+  description: 
+  icon: {fileID: 0}
+  category: 0
+  productType: 0
+  price: 1800
+  quantityGranted: 1
+  available: 1
+  sortOrder: 3
+  stockMode: 0
+  maximumStock: 0
+  maximumPurchasesPerPlayer: 0
+  allowMultiplePurchases: 1
+  requireConfirmation: 1
+  requireFullPackageSpace: 1
+  weaponPurchaseBehavior: 0
+  optionalWorldPrefab: {fileID: 0}
+  weapon: {fileID: 0}
+  weaponId: Longveil
+  ammoKind: 0
+  equipmentLevel: 1
+  bonusAmmo: 30
+--- !u!114 &5565955442690353182
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dd630541e732abd43ab3ebeda3f28a19, type: 3}
+  m_Name: medkit
+  m_EditorClassIdentifier: BattleRoyale::BattleRoyale.MatchShopItemData
+  id: medkit
+  displayName: Kit Medico
+  description: 
+  icon: {fileID: 0}
+  category: 2
+  productType: 2
+  price: 300
+  quantityGranted: 1
+  available: 1
+  sortOrder: 9
+  stockMode: 0
+  maximumStock: 0
+  maximumPurchasesPerPlayer: 0
+  allowMultiplePurchases: 1
+  requireConfirmation: 0
+  requireFullPackageSpace: 1
+  weaponPurchaseBehavior: 0
+  optionalWorldPrefab: {fileID: 0}
+  weapon: {fileID: 0}
+  weaponId: 
+  ammoKind: 0
+  equipmentLevel: 1
+  bonusAmmo: 0
+--- !u!114 &6202386372752393626
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dd630541e732abd43ab3ebeda3f28a19, type: 3}
+  m_Name: helmet-1
+  m_EditorClassIdentifier: BattleRoyale::BattleRoyale.MatchShopItemData
+  id: helmet-1
+  displayName: Capacete Nivel 1
+  description: 
+  icon: {fileID: 0}
+  category: 3
+  productType: 4
+  price: 350
+  quantityGranted: 1
+  available: 1
+  sortOrder: 13
+  stockMode: 0
+  maximumStock: 0
+  maximumPurchasesPerPlayer: 0
+  allowMultiplePurchases: 1
+  requireConfirmation: 0
+  requireFullPackageSpace: 1
+  weaponPurchaseBehavior: 0
+  optionalWorldPrefab: {fileID: 0}
+  weapon: {fileID: 0}
+  weaponId: 
+  ammoKind: 0
+  equipmentLevel: 1
+  bonusAmmo: 0
+--- !u!114 &6309871303077783809
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dd630541e732abd43ab3ebeda3f28a19, type: 3}
+  m_Name: ammo-light
+  m_EditorClassIdentifier: BattleRoyale::BattleRoyale.MatchShopItemData
+  id: ammo-light
+  displayName: Municao Leve x30
+  description: 
+  icon: {fileID: 0}
+  category: 1
+  productType: 1
+  price: 120
+  quantityGranted: 30
+  available: 1
+  sortOrder: 5
+  stockMode: 0
+  maximumStock: 0
+  maximumPurchasesPerPlayer: 0
+  allowMultiplePurchases: 1
+  requireConfirmation: 0
+  requireFullPackageSpace: 1
+  weaponPurchaseBehavior: 0
+  optionalWorldPrefab: {fileID: 0}
+  weapon: {fileID: 0}
+  weaponId: 
+  ammoKind: 0
+  equipmentLevel: 1
+  bonusAmmo: 0
+--- !u!114 &8672750850270061160
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dd630541e732abd43ab3ebeda3f28a19, type: 3}
+  m_Name: weapon-bastion-12
+  m_EditorClassIdentifier: BattleRoyale::BattleRoyale.MatchShopItemData
+  id: weapon-bastion-12
+  displayName: Bastion-12
+  description: 
+  icon: {fileID: 0}
+  category: 0
+  productType: 0
+  price: 850
+  quantityGranted: 1
+  available: 1
+  sortOrder: 2
+  stockMode: 0
+  maximumStock: 0
+  maximumPurchasesPerPlayer: 0
+  allowMultiplePurchases: 1
+  requireConfirmation: 0
+  requireFullPackageSpace: 1
+  weaponPurchaseBehavior: 0
+  optionalWorldPrefab: {fileID: 0}
+  weapon: {fileID: 0}
+  weaponId: Bastion-12
+  ammoKind: 0
+  equipmentLevel: 1
+  bonusAmmo: 30

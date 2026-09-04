@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0e4d06c91f5cde4fa7afd4bd3db14f1, type: 3}
+  m_Name: shirt_military
+  m_EditorClassIdentifier: BattleRoyale::BattleRoyale.ClothingItemData
+  id: shirt_military
+  displayName: Jaqueta Militar
+  slot: 3
+  icon: {fileID: 21300000, guid: 804a0e87c1da33f4c90b6a7fecbdadee, type: 3}
+  clothingPrefab: {fileID: 1038931706664364128, guid: 5ebab8707773cc94894e9d2afc852f4e, type: 3}
+  mesh: {fileID: 0}
+  materials:
+  - {fileID: 2100000, guid: 34a50d0345fb63842ac0ad64cb6e8d3b, type: 2}
+  owned: 1
+  rarity: 2
+  price: 0
+  bodyPartsToHide: 0100000002000000
+  defaultItem: 0

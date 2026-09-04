@@ -1,0 +1,9 @@
+Low-Poly FN SCAR H
+
+Author: TastyTony
+Original model: https://sketchfab.com/3d-models/low-poly-fn-scar-h-c52bc2a8ddaa47caa34e94d69ff72d96
+License: Creative Commons Attribution (CC BY 4.0)
+License text: https://creativecommons.org/licenses/by/4.0/
+
+The model is used as an embedded game asset and may be transformed, scaled,
+reoriented, and assigned new materials for Raven Drop.

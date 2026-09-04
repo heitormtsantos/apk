@@ -1,0 +1,92 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f80edd44555cd334d8ac3676e79cbf7b, type: 3}
+  m_Name: DefaultSafeZoneConfig
+  m_EditorClassIdentifier: BattleRoyale::BattleRoyale.SafeZoneConfig
+  initialRadius: 86
+  initialCenter: {x: 0, y: 0, z: 0}
+  useCustomInitialCenter: 0
+  startDelay: 0
+  damageTickInterval: 0.5
+  boundaryTolerance: 0.1
+  generateRandomNextZone: 1
+  keepNextZoneFullyInsideCurrent: 1
+  minimumFinalRadius: 2
+  playableGroundLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  allowZoneOverWater: 1
+  validateNextZoneGround: 0
+  zoneGenerationAttempts: 24
+  finalBehavior: 1
+  phases:
+  - phaseName: Phase 1
+    waitingDuration: 24
+    shrinkingDuration: 16
+    targetRadius: 76
+    damagePerSecond: 1.5
+    warningTime: 8
+    maxCenterOffsetMultiplier: 0.72
+    generateNewCenter: 1
+    showNextZoneDuringWaiting: 1
+  - phaseName: Phase 2
+    waitingDuration: 18
+    shrinkingDuration: 16
+    targetRadius: 52
+    damagePerSecond: 3
+    warningTime: 7
+    maxCenterOffsetMultiplier: 0.72
+    generateNewCenter: 1
+    showNextZoneDuringWaiting: 1
+  - phaseName: Phase 3
+    waitingDuration: 14
+    shrinkingDuration: 14
+    targetRadius: 32
+    damagePerSecond: 5
+    warningTime: 6
+    maxCenterOffsetMultiplier: 0.72
+    generateNewCenter: 1
+    showNextZoneDuringWaiting: 1
+  - phaseName: Phase 4
+    waitingDuration: 10
+    shrinkingDuration: 12
+    targetRadius: 17
+    damagePerSecond: 8
+    warningTime: 5
+    maxCenterOffsetMultiplier: 0.72
+    generateNewCenter: 1
+    showNextZoneDuringWaiting: 1
+  - phaseName: Final
+    waitingDuration: 8
+    shrinkingDuration: 10
+    targetRadius: 6
+    damagePerSecond: 12
+    warningTime: 4
+    maxCenterOffsetMultiplier: 0.5
+    generateNewCenter: 1
+    showNextZoneDuringWaiting: 1
+  worldVisualPrefab: {fileID: 0}
+  zoneMaterial: {fileID: 0}
+  wallHeight: 260
+  wallBottomOffset: -40
+  wallSegments: 64
+  wallColor: {r: 0.05, g: 0.72, b: 1, a: 0.28}
+  pulseIntensity: 0.16
+  scrollSpeed: 0.2
+  warningSound: {fileID: 0}
+  shrinkingStartSound: {fileID: 0}
+  outsideZoneLoopSound: {fileID: 0}
+  enteredSafeZoneSound: {fileID: 0}
+  exitedSafeZoneSound: {fileID: 0}
+  enableDebug: 0
+  showDebugGizmos: 1
+  debugTimeMultiplier: 1

@@ -1,0 +1,11 @@
+Mixamo Steve Character and Animations
+
+Source: Adobe Mixamo
+Website: https://www.mixamo.com/
+Usage guidance: https://helpx.adobe.com/creative-cloud/faq/mixamo-faq.html
+
+Adobe states that Mixamo characters and animations may be used royalty-free in
+personal, commercial, and non-profit projects, including video games.
+
+The raw character and animation files must not be redistributed or sold as a
+standalone asset collection.

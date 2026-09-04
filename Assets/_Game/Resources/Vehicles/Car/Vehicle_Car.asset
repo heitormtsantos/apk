@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a483ace0f1c89e40bb7060888662e98, type: 3}
+  m_Name: Vehicle_Car
+  m_EditorClassIdentifier: BattleRoyale::BattleRoyale.VehicleDefinition
+  vehicleId: raven_runner_01
+  displayName: Raven Runner
+  gameplayPrefab: {fileID: 7617277517375929662, guid: 4ec3c9b6c0d5a4041945910cab43b043, type: 3}
+  icon: {fileID: 0}
+  maxHealth: 850
+  mass: 1350
+  maxForwardSpeed: 36
+  maxReverseSpeed: 12
+  motorTorque: 1750
+  brakeTorque: 2800
+  maxSteerAngle: 33
+  fuelCapacity: 100
+  seatCount: 4
