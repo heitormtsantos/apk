@@ -1,7 +1,8 @@
 # Raven Drop APK
 
-Build Android de desenvolvimento do prototipo Raven Drop, atualizado com o lobby cinematografico,
-operador armado, atalhos por icone, equipe persistente e selecao de partida condensada.
+Build Android de desenvolvimento do prototipo Raven Drop. Esta versao reduz o personagem e o loot,
+aproxima a camera TPS, corrige a locomocao, reforca o aim assist de hip fire, preserva os controles
+mobile durante ADS e troca os botoes de combate por icones PNG.
 
 ## Download
 
@@ -18,7 +19,7 @@ Baixe `RavenDrop-Android.apk` e permita a instalacao de aplicativos de fontes ex
 SHA-256:
 
 ```text
-ED305F94770B09A1B5A022D09132C3ECA7267C11B1851E1A6EC7B0591B192EFA
+BB30A81E10157DA774A81BB6990B91F5F20B90323A5507460E553F75F0FD6CFA
 ```
 
 Este e um build de desenvolvimento. O funcionamento em aparelho Android fisico ainda precisa ser validado.
