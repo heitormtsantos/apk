@@ -1171,14 +1171,46 @@ namespace BattleRoyale
 
             if (grounded > 0)
             {
-                player.Motor.Teleport(traversalStart + Vector3.up * 0.08f);
-                gameplayCamera.SetTarget(player.transform);
-                Physics.SyncTransforms();
-                for (var frame = 0; frame < 12; frame++)
+                var directionObject = TrackTemporary(new GameObject("BR Smoke Bermuda Walk Direction"));
+                var walkConfig = new BRGameConfig();
+                walkConfig.Normalize();
+                var walkFrame = new BRInputFrame(Vector2.up, Vector2.zero, false, false, false, false,
+                    false, false, false, false, false, false, -1, false, false);
+                var capturedWalks = 0;
+                for (var index = 0; index < samples.Length; index++)
                 {
-                    gameplayCamera.Tick(default);
-                    yield return null;
+                    var sample = samples[index];
+                    var candidate = new Vector3(Mathf.Lerp(bounds.min.x, bounds.max.x, sample.x),
+                        bounds.max.y + 2f, Mathf.Lerp(bounds.min.z, bounds.max.z, sample.y));
+                    if (!PlayableArea.TryGround(candidate, out var point, 0.1f)) continue;
+
+                    var towardCenter = Vector3.ProjectOnPlane(bounds.center - point, Vector3.up);
+                    if (towardCenter.sqrMagnitude < 0.01f) towardCenter = Vector3.forward;
+                    towardCenter.Normalize();
+                    directionObject.transform.SetPositionAndRotation(point, Quaternion.LookRotation(towardCenter));
+                    player.Motor.Teleport(point + Vector3.up * 0.08f);
+                    player.transform.rotation = Quaternion.LookRotation(towardCenter);
+                    gameplayCamera.SetTarget(player.transform);
+                    Physics.SyncTransforms();
+                    for (var settle = 0; settle < 12; settle++)
+                    {
+                        gameplayCamera.Tick(default);
+                        yield return null;
+                    }
+
+                    var start = player.transform.position;
+                    for (var frame = 0; frame < 75; frame++)
+                    {
+                        player.Motor.Move(walkFrame, directionObject.transform, walkConfig, true);
+                        gameplayCamera.Tick(walkFrame);
+                        yield return null;
+                    }
+                    capturedWalks++;
+                    Debug.Log($"BR_SMOKE_BERMUDA_WALK=INDEX={index + 1};START={start};" +
+                              $"END={player.transform.position};DISTANCE={Vector3.Distance(start, player.transform.position):0.00}");
+                    yield return Capture($"br-map-walk-{index + 1:00}.png");
                 }
+                Check(capturedWalks >= 3, $"BERMUDA_WALK_CAPTURES:COUNT={capturedWalks}");
             }
             var cameraCoherent = grounded > 0 && CameraCoherent(player, gameplayCamera);
             Debug.Log($"BR_SMOKE_BERMUDA_CAMERA=COHERENT={cameraCoherent};" +
