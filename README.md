@@ -19,7 +19,7 @@ Baixe `RavenDrop-Android.apk` e permita a instalacao de aplicativos de fontes ex
 SHA-256:
 
 ```text
-BB30A81E10157DA774A81BB6990B91F5F20B90323A5507460E553F75F0FD6CFA
+A7C84093A838CE8823D21C2489D32BCB856167B0C5617FBB03A41AD1D78D5E8B
 ```
 
 Este e um build de desenvolvimento. O funcionamento em aparelho Android fisico ainda precisa ser validado.
